@@ -12,3 +12,5 @@ public:
         return i + 1; // unique elements kitne hue? -> 1 pehla tha hi, aur i elements aur jo mile(jab jab do elements different hue), aage badhte hue
     }
 };
+
+// This pattern is known as SLOW-FAST POINTER
