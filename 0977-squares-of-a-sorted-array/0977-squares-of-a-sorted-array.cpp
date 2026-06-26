@@ -1,16 +1,24 @@
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& nums) {
-        for(int i = 0; i < nums.size(); i++){
-            nums[i] = nums[i] * nums[i];
+        int n = nums.size();
+        vector<int> result(n);
+        int i = 0; 
+        int j = nums.size() - 1;
+        int pos = nums.size() - 1;
+        while(i <= j){
+            int leftSquare = nums[i] * nums[i];
+            int rightSquare = nums[j] * nums[j];
+            if(leftSquare > rightSquare){
+                result[pos] = leftSquare;
+                i++;
+            }
+            else{
+                result[pos] = rightSquare;
+                j--;
+            }
+            pos--;
         }
-        sort(nums.begin(), nums.end());
-        return nums;
+        return result;
     }
 };
-
-/*
-
-Because of sorting, the time complexity is O(nlogn) and Space complexity is O(1)
-
-*/
