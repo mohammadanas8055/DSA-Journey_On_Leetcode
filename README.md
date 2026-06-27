@@ -30,6 +30,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0136-single-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0136-single-number) |
 | [0283-move-zeroes](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0283-move-zeroes) |
 | [0977-squares-of-a-sorted-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0977-squares-of-a-sorted-array) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
