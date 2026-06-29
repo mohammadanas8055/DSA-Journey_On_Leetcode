@@ -13,7 +13,7 @@ public:
         
 
         for(int i = 0; i < numRows; i++){
-            vector<int> row(i + 1, 1); // make a 1D vector of size i + 1 (because i starts from 0, and there are i + 1 elements in each row) initialised with 0(we can't initialise a vector with = after specifying size)
+            vector<int> row(i + 1, 1); // make a 1D vector of size i + 1 (because i starts from 0, and there are i + 1 elements in each row) initialised with 1(we can't initialise a vector with = after specifying size)
             // we CAN initialise it in this way
             // vector<int> (size, value);
 
@@ -33,7 +33,7 @@ public:
 
 
             result.push_back(row); // Add elements to END of vector, v.insert(v.end(), x) and v.push_back(row) do the same thing
-            // puch_back is just more readable and shorter
+            // push_back is just more readable and shorter
 
             // Here we are adding a whole vector(rows)
 
