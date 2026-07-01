@@ -22,3 +22,13 @@ public:
         return result;
     }
 };
+
+// This works because nums was sorted
+
+// Time Complexity -> O(n)
+// Space complexity -> O(n)
+
+// IMPROVEMENT:
+// Square karke nums modify karne ki zaroorat nahi thi
+// ya to absolute value ko compare karke result vectore me store karen
+// ya directly square karke left aur right walon ko compare karke place kar den result vector
