@@ -15,8 +15,14 @@ public:
 };
 
 /*
+Time Complexity -> O(n)
+Space complexity -> O(1)
 
 agar 2 se divisible hoga, to swap kar dena hai
 shuru me aa jayenge saar odd
+
+Pattern: slow-fast partition
+- i = next position for even number
+- j = scanner
 
 */
