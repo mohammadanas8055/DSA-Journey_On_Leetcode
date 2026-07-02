@@ -33,3 +33,21 @@ Find max/min in array
 Many "find optimal X" problems
 
 */
+
+/*
+Variables: 
+int minimum = prices[i]; -> Minimum buying price seen so far.
+
+int profitIfSellToday = 0; -> If I sell at today's price, how much profit do I make?
+
+int maxProfit = 0; -> Best profit found so far
+
+Full pattern:
+track best buy price so far
+check selling price today
+update best answer
+
+agar pehle minimum = min(minimum, prices[i]); likh diya
+aur phir maxProfit = max(maxProfit, prices[i] - minimum); likha phir bhi chalega code
+
+*/
