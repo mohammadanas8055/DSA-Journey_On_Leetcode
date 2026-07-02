@@ -94,6 +94,8 @@ and not "number of increasing pairs"
 
 walk up → check peak → walk down → see if reached end
 
+So still TC -> O(n) and SC -> O(1)
+
 Pattern: Phase walking
 First strictly increasing phase
 Then strictly decreasing phase
