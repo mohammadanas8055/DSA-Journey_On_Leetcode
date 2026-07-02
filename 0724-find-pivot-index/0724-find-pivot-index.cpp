@@ -35,4 +35,10 @@ agar nahi hue, to index ko badhana hi hai, aur us number ko leftSum me store bhi
 AND this should be done AFTER checking, because nums[i] itself should not be included in leftSum
 It becomes left side only for the next index
 
+Pattern: prefix/running sum
+totalSum = sum of whole array
+leftSum = sum before current index 
+rightSum = totalSum - leftSum - nums[i]
+Check first, then add nums[i] to leftSum
+
 */
