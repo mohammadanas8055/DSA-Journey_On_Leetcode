@@ -1,15 +1,16 @@
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
-        int sumRightNow = 0; // sare elements ko add karna hai, to initialize karenge zero se
+        int sum = 0; // sare elements ko add karna hai, to initialize karenge zero se
         int maxSum = nums[0]; // compare karne ke liye pehla element
         for(int i = 0; i < nums.size(); i++){
-            sumRightNow = sumRightNow + nums[i];
-            if(sumRightNow > maxSum){
-                maxSum = sumRightNow;
-            }
-            if(sumRightNow < 0){
-                sumRightNow = 0; // Key Reset -> Negative aaya hai agar sumSoFar, to wo aage Madad to nahi hi karega na, to usko zero kar do, aur agle element se naya sumSoFar track karo
+            sum = sum + nums[i];
+            if(sum > maxSum){
+                maxSum = sum;
+            } 
+            // IMPORTANT: updating maxSum before resetting sum = 0, so all-negative arrays also work 
+            if(sum < 0){
+                sum = 0; // Key Reset -> Negative aaya hai agar sumSoFar, to wo aage Madad to nahi hi karega na, to usko zero kar do, aur agle element se naya sumSoFar track karo
 
             }
         }
