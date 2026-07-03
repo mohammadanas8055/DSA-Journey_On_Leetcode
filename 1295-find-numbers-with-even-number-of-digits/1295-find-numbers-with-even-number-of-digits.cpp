@@ -31,4 +31,6 @@ to O(n) hi ho gayi TC
 
 aur SC O(1)  
 
+Small general case note: if n = 0, this gives digits = 0, but digit count of 0 should be 1. LeetCode 1295 has positive numbers, so it’s fine.
+
 */
