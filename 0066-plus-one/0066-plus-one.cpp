@@ -11,6 +11,8 @@ public:
             }
             // How to insert??
         }
+        // Yahan tak aa gaye matlab sare digits 9 the
+        // to ab yahan insert karenge, loop ke baad
         digits.insert(digits.begin(), 1);
         return digits;
     }
