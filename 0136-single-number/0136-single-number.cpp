@@ -10,7 +10,10 @@ public:
 };
 
 // XOR is commutative, order doesn't matter
-// Also the property that XOR with 0 = original number 
+// a ^ b ^ a = a ^ a ^ b = 0 ^ b = b
+// Also the property that XOR with 0 = original number (x ^ 0 = x)
 // so initialise XOR with 0 and XOR all the elements together 
-// anything XOR with itself = 0
+// anything XOR with itself = 0 (x ^ x = 0)
 // finally left with the single element
+
+// TC -> O(n) | SC -> O(1)
