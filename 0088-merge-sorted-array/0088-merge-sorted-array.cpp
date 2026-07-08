@@ -6,6 +6,11 @@ public:
         int pos = m + n - 1;
         while(j >= 0){
             if(i >= 0 && nums1[i] > nums2[j]){// If nums1 still has elements left, and its current element is bigger, place it. Otherwise, place nums2’s current element.
+            /* 
+               There are two questions:
+               1. Does nums1 still have valid real elements?
+               2. If yes, is nums1[i] bigger than nums2[j]?
+            */
                 nums1[pos] = nums1[i];
                 i--;
             }
