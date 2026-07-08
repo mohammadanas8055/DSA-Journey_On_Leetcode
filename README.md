@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0977-squares-of-a-sorted-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
+| [1431-kids-with-the-greatest-number-of-candies](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1470-shuffle-the-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1470-shuffle-the-array) |
 | [1480-running-sum-of-1d-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1480-running-sum-of-1d-array) |
