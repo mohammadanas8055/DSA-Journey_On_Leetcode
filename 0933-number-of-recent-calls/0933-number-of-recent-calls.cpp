@@ -1,5 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
 class RecentCounter {
     queue<int> q;
     // This problem needs memory across function calls, so we store the queue as a class data member
