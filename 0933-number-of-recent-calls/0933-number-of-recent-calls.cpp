@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class RecentCounter {
     queue<int> q;
     // This problem needs memory across function calls, so we store the queue as a class data member
@@ -21,7 +23,7 @@ public:
     // . Object remembers state
     // Sometimes constructor gets input -> There, it may initialize values, but here, no input is needed, so constructor is empty 
     // Still LeetCode includes it because object creation must happen
-    
+
     int ping(int t) {
         // Step 1. Add current ping time
         q.push(t);
