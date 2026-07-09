@@ -16,4 +16,9 @@ public:
 
 Stand on a number and see how many times the same number appeared BEFORE that position
 
+arr[x] stores: how many times number x has appeared before current index
+Inputs were 1 to 100 , so made 100 
+
+
+
 */
