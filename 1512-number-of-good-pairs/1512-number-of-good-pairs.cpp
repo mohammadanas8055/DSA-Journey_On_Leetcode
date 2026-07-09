@@ -1,14 +1,19 @@
 class Solution {
 public:
     int numIdenticalPairs(vector<int>& nums) {
-        int identical = 0;
-        for(int i = 0; i < nums.size() - 1; i++){
-            for(int j = i + 1; j < nums.size(); j++){
-                if(nums[i] == nums[j]){
-                    identical++;
-                }
-            }
+        int pairs = 0;
+        int arr[101] = {0};
+        int frequency = 0;
+        for(int i = 0; i < nums.size(); i++){
+            pairs = pairs + arr[nums[i]];
+            arr[nums[i]]++;
         }
-        return identical;
+        return pairs;
     }
 };
+
+/*
+
+Stand on a number and see how many times the same number appeared BEFORE that position
+
+*/
