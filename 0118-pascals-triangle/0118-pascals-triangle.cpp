@@ -22,7 +22,10 @@ public:
 
             
             // This is for the middle elements -> excluding row[0] and row[i] , everyone else, row[1] to row[i - 1]
-            for(int j = 1; j < i; j++){ 
+            for(int j = 1; j < i; j++){ // For row i, size is i + 1
+                                        // Last index is i (0 to i)
+                                        // Middle indices are 1 ...i - 1
+                                        // That's why j = 1; j < i
                 row[j] = result[i - 1][j - 1] + result[i - 1][j];
             } // current row ke middle elements kaise aa rahe hain -> pichli row(result me jo saved hai)[result(i - 1)] -> uske pichle element(j - 1) aur same index(j) element se
             // unhen access karne ke liye result[i - 1][index]
