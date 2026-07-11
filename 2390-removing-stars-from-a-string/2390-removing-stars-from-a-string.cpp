@@ -1,3 +1,5 @@
+/*
+
 class Solution {
 public:
     string removeStars(string s) {
@@ -22,8 +24,52 @@ public:
     }
 };
 
+TC -> O(n) (Single pass traversal with O(1) push/pop operations | SC -> O(n) (No stars)
+
+*/
+
+class Solution {
+public:
+    string removeStars(string s) {
+        int i = 0; // Reader -> Reads the original letters from left to right
+        int j = 0; // Writer -> Writes the active letters starting at the beginning of the index
+        for(i = 0; i < s.length(); i++){
+            if(s[i] == '*'){
+                if(j > 0){ // Ensures that we only move backward if we actually have wriiten letters to erase
+                // Agar empty string hui, ya sab delete ho chuka hai, to j-- karke, next step me us index pe overwrite nahi kar payenge
+                    j--;
+                }
+            }
+            // Agar normal letter dikha to use write karke aage badhenge
+            else{
+                s[j] = s[i];
+                j++;
+            }
+        }
+        // Because 0 se likhna shuru kiya hai, aur har baar likhne pe j++ kara hai, to index is the exact count of characters we have written
+        // so we resize the string -> Taki length exactly number of surviving characters ke barabar rahe
+        s.resize(j);
+        return s;
+    }
+};
+
 /*
 
-TC -> O(n) (Single pass traversal with O(1) push/pop operations | SC -> O(n) (No stars)
+eg. s = ab*
+    (i = 0; j = 0)
+    s[0] = 'a' -> s[j] = 'a' and move one step forward
+    (i = 1; j = 1)
+    s[1] = 'b' -> s[j] = 'b' and move one step forward
+    (i = 2; j = 2)
+    s[2] = '*' -> This means backspace (so ensuring our string still has letters to erase) -> Move j backward 
+    WHY? -> because index 1 holds 'b' -> we will overwrite the'b' -> Effectively 'b' is deleted
+
+    Now the loop ends, j is at index 1
+    The first j characters are our answer(1 character)
+    becuase they survived(index 0 to j - 1)
+
+    So resize the string to that length
+
+TC -> O(n) | SC -> O(1)
 
 */
