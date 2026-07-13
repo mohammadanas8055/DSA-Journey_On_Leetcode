@@ -1,62 +1,39 @@
 class MinStack {
 public:
-    //# Step 1: Initialize a single stack and a minimum tracker
-    //! Safety Guard: We use long long to prevent Integer Overflow 
-    //! during the 2 * x - mini calculation.
-    stack<long long> st; 
-    long long mini;      
-
-    MinStack() {}
-    
-    void push(int val) {
-        long long x = val;
+    stack<int> main_st;
+    stack<int> min_st;
+    MinStack() {
         
-        //* Case 1: First element pushed is always the starting minimum
-        if (st.empty()) {
-            st.push(x);
-            mini = x;
-        }
-        //* Case 2: Value is larger, no change to the current minimum
-        else if (x >= mini) {
-            st.push(x);
-        }
-        //* Case 3: Value is smaller. Encrypt the entry and update minimum
-        else {
-            st.push(2 * x - mini); //* Encrypts previous minimum inside the value
-            mini = x;              //* Update current minimum to the new value
+    }
+    
+    void push(int value) {
+        main_st.push(value);
+        if(min_st.empty() || value <= min_st.top()){
+            min_st.push(value);
         }
     }
     
     void pop() {
-        if (st.empty()) return;
-
-        long long top_val = st.top();
-        st.pop();
-        
-        //* If top_val is less than mini, our encryption flag was popped!
-        //* This means we must decrypt and restore the previous minimum.
-        if (top_val < mini) {
-            mini = 2 * mini - top_val; //* Decryption formula
+        if(main_st.top() == min_st.top()){
+            min_st.pop();
         }
+        main_st.pop();
     }
     
     int top() {
-        long long top_val = st.top();
-        
-        //* If top_val is encrypted (less than mini), the actual value is 'mini'
-        if (top_val < mini) {
-            return mini;
-        }
-        return top_val;
+        return main_st.top();
     }
     
     int getMin() {
-        //* Returns the active minimum instantly
-        return mini;
+        return min_st.top();
     }
 };
-/*
-    💡 Complexity Analysis:
-    - Time Complexity (TC): O(1) for all operations.
-    - Auxiliary Space Complexity (SC): O(1) -> We use zero extra tracking stacks.
-*/
+
+/**
+ * Your MinStack object will be instantiated and called as such:
+ * MinStack* obj = new MinStack();
+ * obj->push(value);
+ * obj->pop();
+ * int param_3 = obj->top();
+ * int param_4 = obj->getMin();
+ */
