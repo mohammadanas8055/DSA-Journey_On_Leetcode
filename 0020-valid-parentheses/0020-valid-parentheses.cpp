@@ -49,3 +49,18 @@ If matched -> pop
 At end -> stack must be empty
 
 */
+
+/*
+
+// opening bracket mile to stack me push karo
+
+// closing bracket mile to pehle check karo
+// ki stack empty to nahi hai
+// agar empty hai, matlab is closing bracket ka koi pair nahi hai
+
+// agar stack empty nahi hai to top element check karo
+// agar matching opening bracket nahi hai to string invalid hai
+
+// agar matching bracket mil gaya to stack se pop kar do
+
+*/
