@@ -8,22 +8,16 @@ public:
     
     void push(int value) {
         main_st.push(value);
-        if(min_st.empty()){
+        if(min_st.empty() || value <= min_st.top()){
             min_st.push(value);
-        }
-        else{
-            if(value < min_st.top()){
-                min_st.push(value);
-            }
-            else{
-                min_st.push(min_st.top());
-            }
         }
     }
     
     void pop() {
+        if(main_st.top() == min_st.top()){
+            min_st.pop();
+        }
         main_st.pop();
-        min_st.pop();
     }
     
     int top() {
