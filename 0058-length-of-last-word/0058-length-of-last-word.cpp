@@ -4,11 +4,11 @@ public:
         int count = 0;
         int lastWordCount = 0;
         for(int i = 0; i < s.length(); i++){
-            if(isalpha(s[i])){
+            if(s[i] != ' '){
                 count++;
                 lastWordCount = count;
             }
-            if(!isalpha(s[i])){
+            else{
                 count = 0;
             }
         }
