@@ -15,7 +15,7 @@ public:
     }
 
     int pop() { 
-        int top = q.front();
+        int top = q.front(); // ab sabse aage top element hoga
         q.pop();
         return top;
     }
