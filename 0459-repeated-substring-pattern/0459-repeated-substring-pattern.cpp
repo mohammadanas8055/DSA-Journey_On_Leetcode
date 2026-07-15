@@ -60,17 +60,17 @@ public:
 
 /*
 
-String Concatenation Trick
+> String Concatenation Trick
 Agar koi string apne aap ko repeat karke bani hai, to agar tum us string ko usi ke saath jod do (concatenate), aur starting & ending characters hata do, to bhi original string uske andar chhipi hui mil jayegi.
 
-s ko khud ke saath add karo: string doubled = s + s;
-Nayi string ka first aur last character hata do.
-Ab is bachi hui string mein check karo ki kya original s mil rahi hai ya nahi.
-Agar mil gayi -> true
-Nahi mili -> false
+// s ko khud ke saath add karo: string doubled = s + s;
+// Nayi string ka first aur last character hata do.
+// Ab is bachi hui string mein check karo ki kya original s mil rahi hai ya nahi.
+// Agar mil gayi -> true
+// Nahi mili -> false
 
-Why does this work? (The Math/Logic)
-Maan lo s do blocks se bani hai: s = A + A.
+> Why does this work? (The Math/Logic)
+Maan lo s do blocks se bani hai(minimum do se to bani hi hogi): s = A + A.
 Jab tum s + s karte ho, to wo ban jata hai: A + A + A + A.
 
 Jab tumne first aur last char hataya, to tumne actually first aur last A block ko tod diya/kharab kar diya.
