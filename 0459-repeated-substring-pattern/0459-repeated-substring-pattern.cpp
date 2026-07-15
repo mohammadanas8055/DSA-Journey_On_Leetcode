@@ -1,16 +1,40 @@
-class Solution{
+class Solution {
 public:
-    bool repeatedSubstringPattern(string s){
+    bool repeatedSubstringPattern(string s) {
+        int n = s.length();
 
-        // s ko s ke sath jodo
-        string doubled = s + s;
+        // Candidate substring ki length 1 se n/2 tak ho sakti hai
+        // Kyunki poori string khud repeated substring nahi ho sakti
+        for(int i = 0; i < n / 2; i++){
+            int len = i + 1;
 
-        // first aur last character hata kar substring nikalo
-        // substr(position, length)
-        string modified = doubled.substr(1, doubled.length() - 2);
+            // Agar string length, len se diivde nahi ho rahi
+            // to is length ka pattern possible hi nahi hai
+            if(n % len != 0){
+                continue; // to agle length ka substring se pattern dhoondhne ki koshish karenge
+            }
 
-        // check karo agar original 's' modified string mein hai ya nahi
-        return modified.find(s) != string::npos;
+            bool match = true; // Pehle assume kar lo ki len work karta hai, agar kahin mismatch mila, then match = false
+            
+            // first block ko base maan kar
+            // baaki characters check karenge
+            for(int j = len; j < n; j++){ // pehle len charcaters base pattern hain -> Ab baaqi string ko usi pattern ke according check karna hai
+                // current character ko uske corresponding base pattern character se compare karo
+                if(s[j] != s[j % len]){ // if len = 3 -> compare s[3] with s[0], s[4] with s[1], s[5] with s[2] and then again s[6] with s[0]  
+                // So '% len' wraps index back into the first block
+                    match = false;
+                    break;
+                }
+            }
+
+            // Agar puri string pattern follow kar rahi hai, to match true hi raha(matlab string repeated pattern se bani hai)
+            if(match == true){
+                return true;
+            }
+        }
+
+        // if no length works
+        return false;
     }
 };
 
@@ -55,7 +79,7 @@ Aur A + A hi to tumhara original s tha!
 
 Lekin agar string repeating blocks se nahi bani, to ye middle overlapping kabhi original string nahi bana payegi.
 
-class Solution(){
+class Solution{
 public:
     bool repeatedSubstringPattern(string s){
 
@@ -67,8 +91,13 @@ public:
         string modified = doubled.substr(1, doubled.length() - 2);
 
         // check karo agar original 's' modified string mein hai ya nahi
-        return modified.find(s) != string::npos;
+        if(modified.find(s) != string::npos){
+            return true;
+        }
+        return false;
     }
 };
+
+TC -> O(n) | SC -> (n)
 
 */
