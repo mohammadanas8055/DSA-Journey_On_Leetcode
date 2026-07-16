@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0344-reverse-string) |
+| [0415-add-strings](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0415-add-strings) |
 | [0459-repeated-substring-pattern](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0459-repeated-substring-pattern) |
 | [0844-backspace-string-compare](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0066-plus-one) |
+| [0415-add-strings](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0415-add-strings) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1512-number-of-good-pairs](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1512-number-of-good-pairs) |
 ## Dynamic Programming
@@ -110,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0415-add-strings](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0415-add-strings) |
 | [0682-baseball-game](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0682-baseball-game) |
 | [0832-flipping-an-image](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0832-flipping-an-image) |
 | [0844-backspace-string-compare](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0844-backspace-string-compare) |
