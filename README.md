@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0682-baseball-game](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0682-baseball-game) |
 | [0724-find-pivot-index](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0724-find-pivot-index) |
 | [0832-flipping-an-image](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0832-flipping-an-image) |
+| [0867-transpose-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0867-transpose-matrix) |
 | [0905-sort-array-by-parity](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0905-sort-array-by-parity) |
 | [0941-valid-mountain-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0941-valid-mountain-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0977-squares-of-a-sorted-array) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0832-flipping-an-image](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0832-flipping-an-image) |
+| [0867-transpose-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0867-transpose-matrix) |
 | [1572-matrix-diagonal-sum](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1572-matrix-diagonal-sum) |
 | [1672-richest-customer-wealth](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1672-richest-customer-wealth) |
 ## Simulation
@@ -118,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0682-baseball-game](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0682-baseball-game) |
 | [0832-flipping-an-image](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0832-flipping-an-image) |
 | [0844-backspace-string-compare](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0844-backspace-string-compare) |
+| [0867-transpose-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0867-transpose-matrix) |
 | [1389-create-target-array-in-the-given-order](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1389-create-target-array-in-the-given-order) |
 | [1920-build-array-from-permutation](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1920-build-array-from-permutation) |
 | [2390-removing-stars-from-a-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/2390-removing-stars-from-a-string) |
