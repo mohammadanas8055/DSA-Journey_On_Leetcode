@@ -6,9 +6,12 @@ public:
             if(copy.size() < k){
                 copy.push(nums[i]);
             }
-            else{
-                copy.push(nums[i]);
+            else if(nums[i] > copy.top()){
                 copy.pop();
+                copy.push(nums[i]);
+            }
+            else{
+                continue;
             }
         }
         return copy.top();
