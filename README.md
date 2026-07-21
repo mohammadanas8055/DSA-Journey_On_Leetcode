@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0283-move-zeroes](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0485-max-consecutive-ones) |
+| [0566-reshape-the-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0566-reshape-the-matrix) |
 | [0682-baseball-game](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0682-baseball-game) |
 | [0724-find-pivot-index](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0724-find-pivot-index) |
 | [0832-flipping-an-image](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0832-flipping-an-image) |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0566-reshape-the-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0566-reshape-the-matrix) |
 | [0832-flipping-an-image](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0832-flipping-an-image) |
 | [0867-transpose-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0867-transpose-matrix) |
 | [1572-matrix-diagonal-sum](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1572-matrix-diagonal-sum) |
@@ -129,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0415-add-strings](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0415-add-strings) |
+| [0566-reshape-the-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0566-reshape-the-matrix) |
 | [0682-baseball-game](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0682-baseball-game) |
 | [0832-flipping-an-image](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0832-flipping-an-image) |
 | [0844-backspace-string-compare](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0844-backspace-string-compare) |
