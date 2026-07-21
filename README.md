@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0088-merge-sorted-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0125-valid-palindrome) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0392-is-subsequence) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0283-move-zeroes](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0485-max-consecutive-ones) |
@@ -187,4 +189,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0011-container-with-most-water) |
+## Binary Search
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 <!---LeetCode Topics End-->
