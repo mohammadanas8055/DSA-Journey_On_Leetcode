@@ -4,13 +4,13 @@ public:
         int i = 0;
         int x = tickets[k];
         int time = 0;
-        while(i <= k){
-            time = time + min(tickets[i], x);
-            i++;
-        }
-        while(i < tickets.size()){
-            time = time + min(tickets[i], x - 1);
-            i++;
+        for(int i = 0; i < tickets.size(); i++){
+            if(i <= k){
+                time = time + min(tickets[i], x);
+            }
+            else{
+                time = time + min(tickets[i], x - 1);
+            }
         }
         return time;
     }
