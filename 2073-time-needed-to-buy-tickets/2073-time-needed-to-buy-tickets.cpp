@@ -7,17 +7,17 @@ public:
             q.push(i);
         }
         while(tickets[k] != 0){
-            if(tickets[q.front()] > 1){
-                tickets[q.front()]--;
-                q.push(q.front());
+            int temp = q.front();
+            q.pop();
+            if(tickets[temp] > 1){
+                q.push(temp);
                 time++;
-                q.pop();
             }
+            
             else{
-                tickets[q.front()]--;
                 time++;
-                q.pop();
             }
+            tickets[temp]--;
         }
         return time;
     }
