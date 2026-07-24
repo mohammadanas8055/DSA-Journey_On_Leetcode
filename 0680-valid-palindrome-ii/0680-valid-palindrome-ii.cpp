@@ -1,14 +1,12 @@
 class Solution {
 public:
     bool isPalindrome(string& s, int left, int right){
-        int i = left;
-        int j = right;
-        while(i < j){
-            if(s[i] != s[j]){
+        while(left < right){
+            if(s[left] != s[right]){
                 return false;
             }
-            i++;
-            j--;
+            left++;
+            right--;
         }
         return true;
     }
