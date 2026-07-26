@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0344-reverse-string) |
+| [0345-reverse-vowels-of-a-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0392-is-subsequence) |
 | [0415-add-strings](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0415-add-strings) |
 | [0459-repeated-substring-pattern](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0459-repeated-substring-pattern) |
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0344-reverse-string) |
+| [0345-reverse-vowels-of-a-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0392-is-subsequence) |
 | [0680-valid-palindrome-ii](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0832-flipping-an-image](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0832-flipping-an-image) |
