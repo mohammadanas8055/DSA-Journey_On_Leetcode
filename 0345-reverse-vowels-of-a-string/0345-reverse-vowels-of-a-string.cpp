@@ -16,11 +16,10 @@ public:
             while(i < j && !isVowel(s[j])){
                 j--;
             }
-            if(i < j){
                 swap(s[i], s[j]);
                 i++;
                 j--;
-            }
+            
         }
         return s;
     }
