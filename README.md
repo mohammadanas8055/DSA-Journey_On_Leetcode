@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1672-richest-customer-wealth](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1672-richest-customer-wealth) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [1732-find-the-highest-altitude](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1732-find-the-highest-altitude) |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1920-build-array-from-permutation](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1920-build-array-from-permutation) |
 | [2073-time-needed-to-buy-tickets](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/2073-time-needed-to-buy-tickets) |
 ## Bit Manipulation
