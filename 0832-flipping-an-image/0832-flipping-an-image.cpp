@@ -3,7 +3,7 @@ public:
     vector<vector<int>> flipAndInvertImage(vector<vector<int>>& image) {
         for(int i = 0; i < image.size(); i++){
             int left = 0; 
-            int right = image.size() - 1;
+            int right = image[i].size() - 1;
             while(left <= right){
                 int temp = 1 - image[i][left];
                 image[i][left] = 1 - image[i][right];
