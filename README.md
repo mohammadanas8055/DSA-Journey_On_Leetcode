@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0844-backspace-string-compare](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1544-make-the-string-great](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1544-make-the-string-great) |
+| [1662-check-if-two-string-arrays-are-equivalent](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
 | [2390-removing-stars-from-a-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/2390-removing-stars-from-a-string) |
 ## Sorting
 |  |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1480-running-sum-of-1d-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1480-running-sum-of-1d-array) |
 | [1512-number-of-good-pairs](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1512-number-of-good-pairs) |
 | [1572-matrix-diagonal-sum](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1572-matrix-diagonal-sum) |
+| [1662-check-if-two-string-arrays-are-equivalent](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
 | [1672-richest-customer-wealth](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1672-richest-customer-wealth) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [1732-find-the-highest-altitude](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1732-find-the-highest-altitude) |
