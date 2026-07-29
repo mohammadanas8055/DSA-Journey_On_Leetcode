@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0566-reshape-the-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0566-reshape-the-matrix) |
+| [0661-image-smoother](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0661-image-smoother) |
 | [0682-baseball-game](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0682-baseball-game) |
 | [0724-find-pivot-index](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0724-find-pivot-index) |
 | [0766-toeplitz-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0766-toeplitz-matrix) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0566-reshape-the-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0566-reshape-the-matrix) |
+| [0661-image-smoother](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0661-image-smoother) |
 | [0766-toeplitz-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0766-toeplitz-matrix) |
 | [0832-flipping-an-image](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0832-flipping-an-image) |
 | [0867-transpose-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0867-transpose-matrix) |
