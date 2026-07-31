@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-last-stone-weight](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1046-last-stone-weight) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
+| [1380-lucky-numbers-in-a-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1380-lucky-numbers-in-a-matrix) |
 | [1389-create-target-array-in-the-given-order](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1389-create-target-array-in-the-given-order) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0766-toeplitz-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0766-toeplitz-matrix) |
 | [0832-flipping-an-image](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0832-flipping-an-image) |
 | [0867-transpose-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0867-transpose-matrix) |
+| [1380-lucky-numbers-in-a-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1380-lucky-numbers-in-a-matrix) |
 | [1572-matrix-diagonal-sum](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1572-matrix-diagonal-sum) |
 | [1672-richest-customer-wealth](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1672-richest-customer-wealth) |
 ## Simulation
