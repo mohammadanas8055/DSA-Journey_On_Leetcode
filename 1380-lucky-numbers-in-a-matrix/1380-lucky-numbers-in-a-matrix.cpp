@@ -2,6 +2,7 @@ class Solution {
 public:
     vector<int> luckyNumbers(vector<vector<int>>& matrix) {
         vector<int> lucky;
+        
         for(int i = 0; i < matrix.size(); i++){
             int minimum = matrix[i][0];
             int minCol = 0;
