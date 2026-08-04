@@ -49,9 +49,13 @@ public:
     int missingNumber(vector<int>& nums){
         int missingNumber = 0;
         int n = nums.size();
+        
+        // XOR all elements in the array and the numbers in the range[0,n)
         for(int i = 0; i < n; i++){
             missingNumber = missingNumber ^ i ^ nums[i];
         }
+        
+        // Then XOR the last element n too
         missingNumber = missingNumber ^ n;
         return missingNumber;
     }
