@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0414-third-maximum-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0414-third-maximum-number) |
 | [0485-max-consecutive-ones](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0566-reshape-the-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0566-reshape-the-matrix) |
+| [0643-maximum-average-subarray-i](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0661-image-smoother](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0661-image-smoother) |
 | [0682-baseball-game](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0682-baseball-game) |
 | [0724-find-pivot-index](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0724-find-pivot-index) |
@@ -249,4 +250,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
