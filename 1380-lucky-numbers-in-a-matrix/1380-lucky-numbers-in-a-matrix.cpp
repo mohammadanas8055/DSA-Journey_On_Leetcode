@@ -77,25 +77,48 @@ public:
     vector<int> luckyNumbers(vector<vector<int>>& matrix){
         int m = matrix.size();
         int n = matrix[0].size();
+
         int maximumAmongRowMinimum = INT_MIN;
+        // Ye sabhi row minimum me se sabse bada value store karega
+
         for(int i = 0; i < m; i++){
             int minRow = matrix[i][0];
+
             for(int j = 0; j < n; j++){
                 minRow = min(minRow, matrix[i][j]);
             }
+
             maximumAmongRowMinimum = max(maximumAmongRowMinimum, minRow);
+            // Har row ka minimum nikala, phir un row minimums me se maximum track kiya
         }
+
         int minimumAmongColumnMaximum = INT_MAX;
+        // Ye sabhi column maximum me se sabse chhota value store karega
+
         for(int i = 0; i < n; i++){
             int maxCol = matrix[0][i];
+
             for(int j = 0; j < m; j++){
                 maxCol = max(maxCol, matrix[j][i]);
             }
+
             minimumAmongColumnMaximum = min(minimumAmongColumnMaximum, maxCol);
+            // Har column ka maximum nikala
+            // phir un column maximums me se minimum track kiya
         }
         if(maximumAmongRowMinimum == minimumAmongColumnMaximum){
             return {minimumAmongColumnMaximum};
+            // Agar dono equal hain
+            // to wahi lucky number hai
         }
         return {};
+        // Agar equal nahi hain, to lucky number exist nahi karta
+        // (In a matrix of unique elements, at most one lucky number is present)
     }
 };
+
+/*
+
+TC -> O(m * n) | SC -> O(1)
+
+*/
