@@ -84,118 +84,118 @@ All are TC -> O(n) | SC -> O(1)
 
 */
 
-// class Solution{
-// public: 
-//     int thirdMax(vector<int>& nums){
-//         int first = 0;
-//         int second = 0;
-//         int third = 0;
-//         // Instead of putting a weird fake number in the shelves, we just count how many distinct numbers we have seen so far
-//         // first, second, third are normal int variables. Their starting valued DO NOT MATTER 
+class Solution{
+public: 
+    int thirdMax(vector<int>& nums){
+        int first = 0;
+        int second = 0;
+        int third = 0;
+        // Instead of putting a weird fake number in the shelves, we just count how many distinct numbers we have seen so far
+        // first, second, third are normal int variables. Their starting valued DO NOT MATTER 
 
-//         int count = 0;
-//         // tells how many shelves are legally occupied
-//         // count = 0 -> koi shelf filled nahi
-//         // count = 1 -> sirf first valid hai
-//         // count = 2 -> first and second valid hain
-//         // count = 3 -> first, second, third teeno valid hain
+        int count = 0;
+        // tells how many shelves are legally occupied
+        // count = 0 -> koi shelf filled nahi
+        // count = 1 -> sirf first valid hai
+        // count = 2 -> first and second valid hain
+        // count = 3 -> first, second, third teeno valid hain
 
-//         for(int i = 0; i < nums.size(); i++){
-//             // if((count == 1 && nums[i] == first) || (count == 2 && (nums[i] == first || nums[i] == second)) || (count >= 3 && (nums[i] == first || nums[i] == second || nums[i] == third))){
-//             //     continue;
-//             // }
-//             // OR
-//             if((count >= 1 && nums[i] == first) || (count >= 2 && nums[i] == second) || (count >= 3 && nums[i] == third)){
-//                 continue;
-//             }
-//             // second ko tabhi compare kar sakte hain jab count >= 2
-//             // third ko tabhi jab count >= 3
-//             // warna unki current values sirf dummy initialisation hain
+        for(int i = 0; i < nums.size(); i++){
+            // if((count == 1 && nums[i] == first) || (count == 2 && (nums[i] == first || nums[i] == second)) || (count >= 3 && (nums[i] == first || nums[i] == second || nums[i] == third))){
+            //     continue;
+            // }
+            // OR
+            if((count >= 1 && nums[i] == first) || (count >= 2 && nums[i] == second) || (count >= 3 && nums[i] == third)){
+                continue;
+            }
+            // second ko tabhi compare kar sakte hain jab count >= 2
+            // third ko tabhi jab count >= 3
+            // warna unki current values sirf dummy initialisation hain
 
-//             if(count == 0){ 
-//                 // First number ever seen
-//                 // Then put in it first directly
+            if(count == 0){ 
+                // First number ever seen
+                // Then put in it first directly
 
-//                 first = nums[i];
-//                 count++;
-//                 // or count = 1;
-//             }
-//             else if(count == 1){
-//                 // Agar duplicate hai first ke to skip(done above)
-//                 // ab tak sirf first filled hai, ya to first se bada hoga
-//                 // ya first se chhota hoga
+                first = nums[i];
+                count++;
+                // or count = 1;
+            }
+            else if(count == 1){
+                // Agar duplicate hai first ke to skip(done above)
+                // ab tak sirf first filled hai, ya to first se bada hoga
+                // ya first se chhota hoga
 
-//                 if(nums[i] > first){
-//                     // Agar first se bada hai, to second me first, aur first me naya number
-//                     second = first;
-//                     first = nums[i];
-//                 }
-//                 else{
-//                     // yani smaller hai first se
-//                     second = nums[i];
-//                 }
-//                 count++;
-//                 // or count = 2;
-//             }
-//             else if(count == 2){
-//                 // if duplicate of first or second, skip
-//                 // ab tak first aur second valid hain
-//                 // teesra distinct number aaya hai
+                if(nums[i] > first){
+                    // Agar first se bada hai, to second me first, aur first me naya number
+                    second = first;
+                    first = nums[i];
+                }
+                else{
+                    // yani smaller hai first se
+                    second = nums[i];
+                }
+                count++;
+                // or count = 2;
+            }
+            else if(count == 2){
+                // if duplicate of first or second, skip
+                // ab tak first aur second valid hain
+                // teesra distinct number aaya hai
 
-//                 if(nums[i] > first){
-//                     // if bigger than first, shift all down
+                if(nums[i] > first){
+                    // if bigger than first, shift all down
 
-//                     third = second;
-//                     second = first;
-//                     first = nums[i];
-//                 }
-//                 else if(nums[i] > second){
-//                     // if between first and second, shift second down
+                    third = second;
+                    second = first;
+                    first = nums[i];
+                }
+                else if(nums[i] > second){
+                    // if between first and second, shift second down
 
-//                     third = second;
-//                     second = nums[i];
-//                 }
-//                 else{
-//                     // smaller than second
-//                     // so put in third directly
-//                     third = nums[i];
-//                 }
-//                 count++;
-//                 // or count = 3;
-//             }
-//             else{
-//                 // count == 3
-//                 // teeno shelves already filled hain
-//                 // ab sirf standard shifting logic chalega
+                    third = second;
+                    second = nums[i];
+                }
+                else{
+                    // smaller than second
+                    // so put in third directly
+                    third = nums[i];
+                }
+                count++;
+                // or count = 3;
+            }
+            else{
+                // count == 3
+                // teeno shelves already filled hain
+                // ab sirf standard shifting logic chalega
 
-//                 if(nums[i] > first){
-//                     third = second;
-//                     second = first;
-//                     first = nums[i];
-//                     // new largest mil gaya -> sab shift down
-//                 }
-//                 else if(nums[i] > second){
-//                     third = second;
-//                     second = nums[i];
-//                     // new second largest mila
-//                 }
-//                 else if(nums[i] > third){
-//                     third = nums[i];
-//                     // new third largest mila
-//                 }
-//                 // agar x third se bhi chhota hai, to ignore
-//                 // yahan count badhane ki zaroorat nahi hai
-//                 // sirf teen hi shelf ka count rakhna tha
-//                 // ya to count = 0 ya count = 1 ya count = 2 ya count = 3
-//             }
-//         }
+                if(nums[i] > first){
+                    third = second;
+                    second = first;
+                    first = nums[i];
+                    // new largest mil gaya -> sab shift down
+                }
+                else if(nums[i] > second){
+                    third = second;
+                    second = nums[i];
+                    // new second largest mila
+                }
+                else if(nums[i] > third){
+                    third = nums[i];
+                    // new third largest mila
+                }
+                // agar x third se bhi chhota hai, to ignore
+                // yahan count badhane ki zaroorat nahi hai
+                // sirf teen hi shelf ka count rakhna tha
+                // ya to count = 0 ya count = 1 ya count = 2 ya count = 3
+            }
+        }
 
-//         // Agar 3 distinct shelves fill ho gayi hain
-//         // to third distinct maximum return karna hai
-//         // warna problem ke according maximum return hoga
-//         return (count == 3) ? third : first;
-//     }
-// };
+        // Agar 3 distinct shelves fill ho gayi hain
+        // to third distinct maximum return karna hai
+        // warna problem ke according maximum return hoga
+        return (count == 3) ? third : first;
+    }
+};
 
 /*
 
@@ -206,75 +206,75 @@ Whenever checking a number, we don't just check if it's bigger, we also check if
 
 */
 
-class Solution{
-public:
-    int thirdMax(vector<int>& nums){
-        int first = 0;
-        int second = 0;
-        int third = 0;
-        bool hasFirst = false;
-        bool hasSecond = false;
-        bool hasThird = false;
-        // Yahan values ke saath saath ham explicitly track kar rahe hain
-        // ki shelf filled hai ya nahi
-        // isse initialization dummy value se problem nahi hoti
+// class Solution{
+// public:
+//     int thirdMax(vector<int>& nums){
+//         int first = 0;
+//         int second = 0;
+//         int third = 0;
+//         bool hasFirst = false;
+//         bool hasSecond = false;
+//         bool hasThird = false;
+//         // Yahan values ke saath saath ham explicitly track kar rahe hain
+//         // ki shelf filled hai ya nahi
+//         // isse initialization dummy value se problem nahi hoti
 
-        for(int i = 0; i < nums.size(); i++){
-            if((hasFirst && nums[i] == first) || (hasSecond && nums[i] == second) || (hasThird && nums[i] == third)){
-                continue;
-            }
-            // Duplicate tabhi compare karna hai jab respective shelf filled ho
+//         for(int i = 0; i < nums.size(); i++){
+//             if((hasFirst && nums[i] == first) || (hasSecond && nums[i] == second) || (hasThird && nums[i] == third)){
+//                 continue;
+//             }
+//             // Duplicate tabhi compare karna hai jab respective shelf filled ho
 
-            if(!hasFirst || nums[i] > first){
-                // Agar first shelf empty hai ya current first se bada hai
-                // to nums[i] new largest banega
+//             if(!hasFirst || nums[i] > first){
+//                 // Agar first shelf empty hai ya current first se bada hai
+//                 // to nums[i] new largest banega
 
-                if(hasSecond){
-                    third = second;
-                    hasThird = true;
-                    // old second ko third me shift karna zaorori hai
-                    // before second overwrite ho
-                }
+//                 if(hasSecond){
+//                     third = second;
+//                     hasThird = true;
+//                     // old second ko third me shift karna zaorori hai
+//                     // before second overwrite ho
+//                 }
 
-                if(hasFirst){
-                    second = first;
-                    hasSecond = true;
-                }
+//                 if(hasFirst){
+//                     second = first;
+//                     hasSecond = true;
+//                 }
 
-                first = nums[i];
-                hasFirst = true;
-            }
-            else if(!hasSecond || nums[i] > second){
-                // yahan nums[i] first se bada nahi hai
-                // but second shelf empty ho sakti hai
-                // ya current second se bada ho sakta hai
+//                 first = nums[i];
+//                 hasFirst = true;
+//             }
+//             else if(!hasSecond || nums[i] > second){
+//                 // yahan nums[i] first se bada nahi hai
+//                 // but second shelf empty ho sakti hai
+//                 // ya current second se bada ho sakta hai
 
-                if(hasSecond){
-                    third = second;
-                    hasThird = true;
-                    // existing second ko third me shift karo
-                    // before second overwrite ho
-                }
+//                 if(hasSecond){
+//                     third = second;
+//                     hasThird = true;
+//                     // existing second ko third me shift karo
+//                     // before second overwrite ho
+//                 }
 
-                second = nums[i];
-                hasSecond = true;
-            }
-            else if(!hasThird || nums[i] > third){
-                // yahan nums[i] first aur second dono se chhota hai
-                // but third shelf empty ho sakti hai
-                // ya current third se bada ho sakta hai
+//                 second = nums[i];
+//                 hasSecond = true;
+//             }
+//             else if(!hasThird || nums[i] > third){
+//                 // yahan nums[i] first aur second dono se chhota hai
+//                 // but third shelf empty ho sakti hai
+//                 // ya current third se bada ho sakta hai
 
-                third = nums[i];
-                hasThird = true;
-            }
-            // agar nums[i] third se bhi chhota hai, to ignore
-        }
+//                 third = nums[i];
+//                 hasThird = true;
+//             }
+//             // agar nums[i] third se bhi chhota hai, to ignore
+//         }
 
-        // Agar third shelf filled hai, third distinct maximum exist karta hai
-        // warna maximum return karna hai
-        return hasThird ? third : first;
-    }
-};
+//         // Agar third shelf filled hai, third distinct maximum exist karta hai
+//         // warna maximum return karna hai
+//         return hasThird ? third : first;
+//     }
+// };
 
 /*
 
