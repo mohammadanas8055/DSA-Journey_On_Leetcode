@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0027-remove-element) |
 | [0053-maximum-subarray](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0054-spiral-matrix) |
 | [0066-plus-one](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0066-plus-one) |
 | [0088-merge-sorted-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0118-pascals-triangle) |
@@ -150,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0054-spiral-matrix) |
 | [0566-reshape-the-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0566-reshape-the-matrix) |
 | [0661-image-smoother](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0661-image-smoother) |
 | [0766-toeplitz-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0766-toeplitz-matrix) |
@@ -161,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0054-spiral-matrix) |
 | [0415-add-strings](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0415-add-strings) |
 | [0566-reshape-the-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0566-reshape-the-matrix) |
 | [0682-baseball-game](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0682-baseball-game) |
