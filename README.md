@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0242-valid-anagram](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0268-missing-number) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [1512-number-of-good-pairs](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1512-number-of-good-pairs) |
 ## String
 |  |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0283-move-zeroes) |
 | [0414-third-maximum-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0414-third-maximum-number) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0566-reshape-the-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0566-reshape-the-matrix) |
 | [0643-maximum-average-subarray-i](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0643-maximum-average-subarray-i) |
