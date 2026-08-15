@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [1732-find-the-highest-altitude](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
+| [1854-maximum-population-year](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1854-maximum-population-year) |
 | [1920-build-array-from-permutation](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1920-build-array-from-permutation) |
 | [1991-find-the-middle-index-in-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1991-find-the-middle-index-in-array) |
 | [2073-time-needed-to-buy-tickets](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/2073-time-needed-to-buy-tickets) |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0724-find-pivot-index) |
 | [1480-running-sum-of-1d-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1480-running-sum-of-1d-array) |
 | [1732-find-the-highest-altitude](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1732-find-the-highest-altitude) |
+| [1854-maximum-population-year](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1854-maximum-population-year) |
 | [1991-find-the-middle-index-in-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1991-find-the-middle-index-in-array) |
 ## Matrix
 |  |
@@ -223,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1512-number-of-good-pairs](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1512-number-of-good-pairs) |
+| [1854-maximum-population-year](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1854-maximum-population-year) |
 ## Stack
 |  |
 | ------- |
