@@ -3,7 +3,7 @@ public:
     queue<int> recent;
     // Queue me ham sabhi valid ping times store karenge
 
-    // Queue kyun(not stack ya vector)
+    // Queue kyun(not stack ya vector)?
     // - Purane pings sirf front se remove hote hain(FIFO)
     // - Naye pings back me add hote hain
     // - Ye exactly queue ka behaviour hai - perfect fit
@@ -54,6 +54,16 @@ Queue is perfect because FIFO -> sabse purana ping front pe, sabse naya back pe
 Purane pings(window ke bahar) sirf front se hi remove hone chahiye
 Naye pings sirf back pe add hone chahiye
 
-TC -> 
+TC -> ping(): Amortized O(1)
+     Kabhi kabhi ek ping() call me multiple pops ho sakte hain(agar bahut purane pings queue me pade the). Us moment pe wo call O(k) hoti hai (k = purane pings ka count)
+     Lekin overall:
+     . Har ping queue me exactly ek baar push hota hai(jab ping call hoti hai)
+     . Har ping queue se exactly ek baar pop hota hai(jab window ke bahar chala jaata hai)
+     So har ping ki total lifetime cose = 2 operations(constant)
+     Agar ham n pings karte hain:
+     . Total ops = 2n
+     . Per ping avg = O(1) amortized
+
+SC -> O(W) (W = window size me maximum kitne pings ho sakte hain)
 
 */
