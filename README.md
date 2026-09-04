@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1920-build-array-from-permutation](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1920-build-array-from-permutation) |
 | [1991-find-the-middle-index-in-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1991-find-the-middle-index-in-array) |
 | [2073-time-needed-to-buy-tickets](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/2073-time-needed-to-buy-tickets) |
+| [2239-find-closest-number-to-zero](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/2239-find-closest-number-to-zero) |
 ## Bit Manipulation
 |  |
 | ------- |
