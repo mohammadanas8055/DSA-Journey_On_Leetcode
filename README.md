@@ -154,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0268-missing-number) |
 | [0415-add-strings](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0415-add-strings) |
+| [0509-fibonacci-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0509-fibonacci-number) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1512-number-of-good-pairs](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1512-number-of-good-pairs) |
 ## Dynamic Programming
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0392-is-subsequence](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0392-is-subsequence) |
+| [0509-fibonacci-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0509-fibonacci-number) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -300,4 +302,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0496-next-greater-element-i) |
+## Recursion
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0509-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
