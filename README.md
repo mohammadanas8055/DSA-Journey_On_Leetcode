@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0392-is-subsequence) |
 | [0415-add-strings](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0415-add-strings) |
 | [0459-repeated-substring-pattern](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0459-repeated-substring-pattern) |
+| [0504-base-7](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0504-base-7) |
 | [0680-valid-palindrome-ii](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0844-backspace-string-compare](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0268-missing-number) |
 | [0415-add-strings](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0415-add-strings) |
+| [0504-base-7](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0504-base-7) |
 | [0509-fibonacci-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0509-fibonacci-number) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1512-number-of-good-pairs](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1512-number-of-good-pairs) |
