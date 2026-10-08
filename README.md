@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0238-product-of-array-except-self) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0066-plus-one) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0268-missing-number) |
 | [0415-add-strings](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0415-add-strings) |
 | [0504-base-7](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0504-base-7) |
@@ -318,4 +320,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0509-fibonacci-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0509-fibonacci-number) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0204-count-primes) |
+## Primality Test
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0204-count-primes) |
+## Sieve Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0204-count-primes) |
+## Prime Number Sieve
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
