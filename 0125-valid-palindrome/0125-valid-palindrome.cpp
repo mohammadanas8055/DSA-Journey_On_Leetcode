@@ -3,60 +3,41 @@ public:
     bool isPalindrome(string s) {
         int i = 0;
         int j = s.length() - 1;
+        // i = start pointer (0)
+        // j = end pointer (last valid index)
+
         while(i < j){
-            if(!isalnum(s[i])){
+            // Jab tak pointers cross nahi karte, pairs compare karte rahenge
+
+            // SKIP 1: Left side se non-alphanumeric characters skip karo
+            // isalnum(ch) returns true only for A-Z, a-z, 0-9
+            // Spaces, commas, colons, symbols etc. ke liye false dega
+            if(!(isalnum(s[i]))){
                 i++;
-                continue; // continue is needed because what if two back-to-back non-alphanumeric characters come
-            }             // this way, jab tak kisi bhi taraf non-alphanumeric characters aate rahenge, tab tab while loop skip hoga, aur phir agle character ke liye check karega
-            if(!isalnum(s[j])){
+                continue;
+                // continue isliye: agla character check karne ke liye
+                // outer while loop ka next iteration run hoga
+            }
+
+            // SKIP 2: Right side se non-alphanumeric characters skip karo
+            if(!(isalnum(s[j]))){
                 j--;
-                continue; // similary, from the right side, jab tak non-alphanumeric characters hat nahi jaate, tab tak hatata rahega !isalnum()
+                continue;
             }
+
+            // MATCH CHECK: Dono pointers valid alphanumeric characters par khade hain
+            // tolower() uppercase ko lowercase me convert kar deta hai
+            // taaki 'A' aur 'a' equal treat ho saken(case-insensitive requirement)
             if(tolower(s[i]) != tolower(s[j])){
-                return 0;
+                return false;
+                // Character mismatch hua -> valid palindrome nahi hai
             }
+
+            // Match mil gaya, dono pointers ko andar shift karo next pair ke liye
             i++;
             j--;
         }
-        return 1;
+        return true;
+        // Puri string scan ho gayi aur koi mismatch nahi mila -> Valid Palindrome
     }
 };
-
-/*
-
-= isalnum() se pata chala ki alpha numeric character hai ya nahi(0~9, a~z, A~Z)
-= tolower() se ek character lower case me aata hai
-= dono #include <cctype> library me hote hain
-~ tolower() is giving an int as an output, that's why for adding it in an empty string, it has to be casted explicitly
-
-> This is called the "skip and continue" pattern in two-pointer problems
-> Used in two-pointer problems where you need to skip certain elements 
-? You'll use it for:
-
-. Skipping spaces in strings
-. Skipping zeros in arrays
-. Skipping duplicates in sorted arrays
-. Many other two-pointer problems
-
-// PATTERN:
-//   while(i < j){
-//       if(condition to skip i){
-//           i++;
-//           continue;   // ! CRITICAL - jumps back to while check
-//       }
-//       if(condition to skip j){
-//           j--;
-//           continue;
-//       }
-         / Both i and j are valid here
-         / Do comparison/work
-//       i++;
-//       j--;
-//   }
-
-? Why is 'continue' critical?
-* It handles MULTIPLE consecutive elements that need skipping
-* Without continue, only ONE skip per iteration
-* With continue, can skip many in a row
-
-*/
