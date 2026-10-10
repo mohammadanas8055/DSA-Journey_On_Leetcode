@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1544-make-the-string-great](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1544-make-the-string-great) |
 | [1662-check-if-two-string-arrays-are-equivalent](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
 | [1768-merge-strings-alternately](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1768-merge-strings-alternately) |
+| [1903-largest-odd-number-in-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [1974-minimum-time-to-type-word-using-special-typewriter](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1974-minimum-time-to-type-word-using-special-typewriter) |
 | [2000-reverse-prefix-of-word](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/2000-reverse-prefix-of-word) |
 | [2390-removing-stars-from-a-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/2390-removing-stars-from-a-string) |
@@ -167,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0509-fibonacci-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0509-fibonacci-number) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1512-number-of-good-pairs](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1512-number-of-good-pairs) |
+| [1903-largest-odd-number-in-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1903-largest-odd-number-in-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -282,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0011-container-with-most-water) |
 | [0605-can-place-flowers](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0605-can-place-flowers) |
 | [0680-valid-palindrome-ii](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0680-valid-palindrome-ii) |
+| [1903-largest-odd-number-in-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [1974-minimum-time-to-type-word-using-special-typewriter](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1974-minimum-time-to-type-word-using-special-typewriter) |
 ## Binary Search
 |  |
