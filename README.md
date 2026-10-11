@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0459-repeated-substring-pattern](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0459-repeated-substring-pattern) |
 | [0504-base-7](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0504-base-7) |
 | [0680-valid-palindrome-ii](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0680-valid-palindrome-ii) |
+| [0796-rotate-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0796-rotate-string) |
 | [0844-backspace-string-compare](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1544-make-the-string-great](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1544-make-the-string-great) |
@@ -276,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0459-repeated-substring-pattern](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0459-repeated-substring-pattern) |
+| [0796-rotate-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0796-rotate-string) |
 ## Quickselect
 |  |
 | ------- |
