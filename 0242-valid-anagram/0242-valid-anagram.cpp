@@ -1,25 +1,30 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
+        // Base Guard: Anagarams must have the exact same character count
+        // If lengths differ, they can never be anagrams
         if(s.length() != t.length()){
             return false;
         }
-        // If lengths differ, they cannot be anagrams
         
+        // Fixed-size frequency array of 26 lowercase English letters 
+        // Array on stack is faster than vector/map due to cache locality and zero heap allocations
         int alphabet[26] = {0};
-        // This creates a frequency array for lowercase English letters, all starting from 0
 
+        // Increment for 's' and decrement for 't' simultaneously
+        // Net frequency for every character must be 0 if both strings have identical characters
         for(int i = 0; i < s.length(); i++){
-            alphabet[s[i] - 'a']++; // This means add count for characters(alphabets) from s
-            alphabet[t[i] - 'a']--; // This means subtract count for characters(alphabets) from t
+            alphabet[s[i] - 'a']++; // Count char from source string
+            alphabet[t[i] - 'a']--; // Cancel out with char from target string
         }
-        // If both strings have same character frequencies, everything returns zero
+
+        // Verify that all character buckets perfectly cancelled out to zero
         for(int i = 0; i < 26; i++){
+            // If any count != 0, it means character frequencies did not match
             if(alphabet[i] != 0){
                 return false;
             }
         }
-        // This is checking whether any character count is unmatched 
         return true;
     }
 };
