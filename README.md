@@ -164,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0204-count-primes) |
+| [0258-add-digits](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0268-missing-number) |
 | [0415-add-strings](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0415-add-strings) |
 | [0504-base-7](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0504-base-7) |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0054-spiral-matrix) |
+| [0258-add-digits](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0258-add-digits) |
 | [0415-add-strings](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0415-add-strings) |
 | [0566-reshape-the-matrix](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0566-reshape-the-matrix) |
 | [0682-baseball-game](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0682-baseball-game) |
@@ -335,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0204-count-primes) |
+| [0258-add-digits](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0258-add-digits) |
 ## Primality Test
 |  |
 | ------- |
