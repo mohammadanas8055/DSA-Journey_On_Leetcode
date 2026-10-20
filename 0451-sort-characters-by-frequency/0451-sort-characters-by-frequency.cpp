@@ -66,13 +66,19 @@ public:
         // Option 3: Lambda function -> sort() ke andar inline -> localized, no name pollution, modern C++
         // Lambda is inline, no separate function needed, no static/global hassle
         sort(v.begin(), v.end(), [](pair<char,int> p1, pair<char,int> p2){
-            if(p1.second > p2.second) return true;
+            if(p1.second > p2.second) return true; // Higher frequency comes first
+            // if(p1.second < p2.second) return false; // Tie-breaker not required on LeetCode
+            // if(p1.first > p2.first) return true;
             return false;
         });
+
+        // Step 4: Build return string
+        // string(count, char) repeats 'char' exactly 'count' times in one shot
         string result = "";
         for(int i = 0; i < v.size(); i++){
-            if(v[i].second != 0) 
-            result += string(v[i].second, v[i].first);
+            if(v[i].second != 0){
+                result += string(v[i].second, v[i].first); // e.g. string(2, 'e') -> "ee"
+            }
         }
         return result;
     }
