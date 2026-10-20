@@ -14,16 +14,27 @@ public:
         vector<string> bucket(s.length() + 1);
         for(int i = 0; i < 256; i++){
             if(mpp[i] != 0){
+                // string(count, char) creates a string with 'char' repeated 'count' times
+                // e.g. string(3, 'e') = "eee"
                 bucket[mpp[i]] += string(mpp[i], (char)i);
             }
         }
 
+        // Step 3: Iterate buckets from highest frequency to lowest
+        // No sorting needed - bucket index IS the frequency(already ordered)
         string answer = "";
         for(int i = s.length(); i >= 0; i--){
             if(!bucket[i].empty()){
-                answer += bucket[i];
+                answer += bucket[i]; // Append all characters with frequency i
             }
         }
         return answer;
     }
 };
+
+/*
+
+TC -> O(n) but with higher constant factor
+SC -> O(n) 
+
+*/
