@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0013-roman-to-integer) |
+| [0169-majority-element](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0242-valid-anagram) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0242-valid-anagram) |
@@ -102,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -188,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 ## Prefix Sum
 |  |
@@ -260,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0169-majority-element) |
 | [0451-sort-characters-by-frequency](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [1512-number-of-good-pairs](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1512-number-of-good-pairs) |
 | [1854-maximum-population-year](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1854-maximum-population-year) |
@@ -359,4 +364,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0451-sort-characters-by-frequency) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
