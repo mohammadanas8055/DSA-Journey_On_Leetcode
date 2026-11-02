@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0977-squares-of-a-sorted-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1768-merge-strings-alternately](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1768-merge-strings-alternately) |
 | [2000-reverse-prefix-of-word](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/2000-reverse-prefix-of-word) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Array
 |  |
 | ------- |
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1920-build-array-from-permutation](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1920-build-array-from-permutation) |
 | [1991-find-the-middle-index-in-array](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1991-find-the-middle-index-in-array) |
 | [2073-time-needed-to-buy-tickets](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/2073-time-needed-to-buy-tickets) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2239-find-closest-number-to-zero](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/2239-find-closest-number-to-zero) |
 ## Bit Manipulation
 |  |
@@ -231,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [1920-build-array-from-permutation](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/1920-build-array-from-permutation) |
 | [2073-time-needed-to-buy-tickets](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/2073-time-needed-to-buy-tickets) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2390-removing-stars-from-a-string](https://github.com/mohammadanas8055/DSA-Journey_On_Leetcode/tree/master/2390-removing-stars-from-a-string) |
 ## Heap (Priority Queue)
 |  |
